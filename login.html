@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styleLogin.css" />
+    <link rel="stylesheet" href="css/styleLogin.css" />
     <title>Login</title>
     <style></style>
   </head>
@@ -11,38 +11,44 @@
   <body>
     <!-- Login BOX -->
     <div class="login-box">
-      <!-- Logo and Title -->
       <div class="logo-title">
-        <img src="logoChill.png" alt="Logo" class="logo" />
-        <h1>CHILL</h1>
+        <img src="assets/logos/logoChill.png" alt="Logo" class="logo" />
       </div>
       <!-- text -->
       <h2>Masuk</h2>
       <h3>Selamat datang kembali!</h3>
-      <p2>Username</p2>
-      <!-- Username and Password Input -->
-      <div>
-        <input type="text" placeholder="Masukan username" />
-        <p2>Kata Sandi</p2>
+      <p>Username</p>
+
+      <form>
+        <input type="text" placeholder="Masukkan username" />
+        <p>Kata Sandi</p>
         <div class="password-box">
-          <img src="hiddenEye.png" class="eye" draggable="false" />
+          <img src="assets/logos/hiddenEye.png" class="eye" draggable="false" />
           <input
             type="password"
             id="password"
-            placeholder="Masukan kata sandi"
+            placeholder="Masukkan kata sandi"
           />
         </div>
-        <p>
-          Belum punya akun?
-          <a href="register.html" class="highlight">Daftar</a>
-        </p>
-      </div>
+
+        <div class="options">
+          <span
+            >Belum punya akun?
+            <a href="register.html" class="highlight">Daftar</a>
+          </span>
+          <a href="#" class="highlight">Lupa kata sandi?</a>
+        </div>
+      </form>
       <!-- Button -->
-      <div>
+      <div class="button-container">
         <button class="login-btn">Masuk</button>
-        <p class="p3">Atau</p>
+        <div class="divider">Atau</div>
         <button class="google-btn">
-          <img src="logoGoogle.png" alt="Logo" class="logoGoogle" />
+          <img
+            src="assets/logos/logoGoogle.png"
+            alt="Logo"
+            class="logoGoogle"
+          />
           Masuk dengan Google
         </button>
       </div>

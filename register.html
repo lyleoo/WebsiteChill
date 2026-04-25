@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styleRegister.css" />
+    <link rel="stylesheet" href="css/styleRegister.css" />
     <title>Register</title>
     <style></style>
   </head>
@@ -11,50 +11,58 @@
   <body>
     <!-- register BOX -->
     <div class="register-box">
-      <!-- Logo and Title -->
       <div class="logo-title">
-        <img src="logoChill.png" alt="Logo" class="logo" />
-        <h1>CHILL</h1>
+        <img src="assets/logos/logoChill.png" alt="Logo" class="logo" />
       </div>
       <!-- text -->
       <h2>Daftar</h2>
       <h3>Selamat datang!</h3>
-      <p2>Username</p2>
+      <p>Username</p>
       <!-- Username and Password Input -->
       <div>
-        <input type="text" placeholder="Masukan username" />
-        <p2>Kata Sandi</p2>
+        <input type="text" placeholder="Masukkan username" />
+        <p>Kata Sandi</p>
         <div class="password-box">
-          <img src="hiddenEye.png" class="eye" draggable="false" />
+          <img src="assets/logos/hiddenEye.png" class="eye" draggable="false" />
           <input
             type="password"
             id="password"
-            placeholder="Masukan kata sandi"
+            placeholder="Masukkan kata sandi"
           />
         </div>
       </div>
       <div class="konfirmasi">
-        <p2>Konfirmasi Kata Sandi</p2>
+        <p>Konfirmasi Kata Sandi</p>
         <div class="password-box2">
-          <img src="hiddenEye.png" class="eye2" draggable="false" />
+          <img
+            src="assets/logos/hiddenEye.png"
+            class="eye2"
+            draggable="false"
+          />
           <input
             type="password"
             id="password"
-            placeholder="Masukan kata sandi"
+            placeholder="Masukkan kata sandi"
           />
         </div>
-        <p>
+
+        <div class="options">
+        <span>
           Sudah punya akun?
           <a href="login.html" class="highlight">Masuk</a>
-        </p>
+        </span>
       </div>
 
       <!-- Button -->
       <div>
         <button class="register-btn">Daftar</button>
-        <p class="p3">Atau</p>
+        <div class="divider">Atau</div>
         <button class="google-btn">
-          <img src="logoGoogle.png" alt="Logo" class="logoGoogle" />
+          <img
+            src="assets/logos/logoGoogle.png"
+            alt="Logo"
+            class="logoGoogle"
+          />
           Daftar dengan Google
         </button>
       </div>
